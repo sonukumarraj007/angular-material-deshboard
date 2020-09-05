@@ -1,3 +1,4 @@
+import { DeshboardComponent } from './modules/deshboard/deshboard.component';
 import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
 import { DefaultComponent } from "./layouts/default/default.component";
@@ -35,6 +36,10 @@ const routes: Routes = [
       {
         path: "add-com",
         component: AddCommentComponent,
+      },
+      {
+        path: "deshboard",
+        component: DeshboardComponent,
       },
     ],
   },

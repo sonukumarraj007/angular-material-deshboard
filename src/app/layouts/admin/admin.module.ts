@@ -1,3 +1,4 @@
+import { DeshboardComponent } from './../../modules/deshboard/deshboard.component';
 import { CustomMaterialModule } from 'src/app//custom.material.module';
 import { AdminComponent } from './admin.component';
 import { NgModule } from '@angular/core';
@@ -17,7 +18,9 @@ import { HttpClientModule } from '@angular/common/http';
   declarations: [
     AddCommentComponent,
     AddPostComponent,
-    AdminComponent],
+    AdminComponent,
+    DeshboardComponent
+  ],
   imports: [
     CommonModule,
     RouterModule,
